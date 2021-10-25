@@ -30,3 +30,31 @@
  - in terminal: ` sqlite3` to enter its shell
  - `.show`
  - `.open db.sqlite3`
+ - `.quit`
+
+8. Starting the app:
+ - `python manage.py startapp its_name`
+ - model.py: Here it goes my structre of data.
+ - migration:contains migrations, an empty
+ - admin.py: I used it if I want to register model I create with the admin panel.
+ - app.py
+9. I run the server again and I open: `http://127.0.0.1:8000/`
+
+10. to create a superuser: `python manage.sy createsuperuser`, then we enter the required info
+11. in view.py: 
+`from django.views.generic import TemplateView`
+`class HomePageView(TemplateView):`
+   ` template_name = 'home.html'`
+12. create "urls.py" inside things folder, I imported and added `HomePageView`
+13. in the original urls.py: 
+` path('', include('things.urls')),`
+14. create template folder with two files(base, home)
+15. in settings.py: add DIr to TEMPLETES variable
+
+11. create a model:
+12. regester it to an admin
+
+
+
+
+* my app has a url, url tells it which view to use, view is telling it which template to load
