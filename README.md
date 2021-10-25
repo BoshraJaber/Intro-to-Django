@@ -12,3 +12,9 @@
 ![](https://image.slidesharecdn.com/jfokus-jruby-rails-110215090813-phpapp01/95/jruby-rails-awesome-java-web-framework-at-jfokus-2011-18-728.jpg?cb=1297761611)
 
 ![](https://i.ytimg.com/vi/GzNYpu_OKvU/maxresdefault.jpg)
+
+## how to code it:
+1. `poetry add django`
+2. `django-admin help` : 
+ - we can use it to start new project: `django-admin startproject project_name .` where the dot means this folder
+3. 
