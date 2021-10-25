@@ -58,3 +58,13 @@
 
 
 * my app has a url, url tells it which view to use, view is telling it which template to load
+
+# Typical Steps to Start Django Project
+- create project
+- define app
+- add app to project
+- add views
+- add urlpatterns
+- add templates
+- add tests
+
